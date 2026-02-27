@@ -1,0 +1,25 @@
+# Spec template for table: model
+# Generated from ai_sandbox_PSA_16_Oct_2025.db
+# Map your CSV columns to DB columns below.
+# mode:
+#   - 'insert'  → always insert
+#   - 'upsert'  → requires a UNIQUE or PRIMARY KEY on 'key' columns
+
+table: model
+mode: upsert  # or 'insert'
+key: ['id']
+columns:
+  # id: type=INTEGER; PK; AUTOINC-LIKE; FK→element.id
+  # Tip: usually omit mapping for autoincrement PKs and let the DB assign them.
+  id: { from: "id", optional: true }
+  # pid: type=VARCHAR(100); REQUIRED
+  pid: { from: "pid" }
+  # data: type=VARCHAR(100); REQUIRED
+  data: { from: "data" }
+  # source: type=VARCHAR(100); REQUIRED
+  source: { from: "source" }
+  # licensing: type=VARCHAR(11); REQUIRED
+  licensing: { from: "licensing" }
+  # dataset_id: type=INTEGER; REQUIRED; FK→dataset.id
+  dataset_id: { from: "dataset_id", as_type: int}
+
