@@ -1,0 +1,2 @@
+answer_relevancy,context_precision,context_recall,endpoint,faithfulness,http_status,noise_sensitivity(mode=relevant)
+0.5734111437634211,0.561403508722807,0.85,/evaluate_rag,0.36656746031746035,200,0.10426587301587302

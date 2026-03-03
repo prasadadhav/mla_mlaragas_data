@@ -1,0 +1,2 @@
+avg_answer_relevancy,avg_context_precision,avg_context_recall,avg_faithfulness,avg_noise_sensitivity,count_answer_relevancy,count_context_precision,count_context_recall,count_faithfulness,count_noise_sensitivity,most_common_language,total_rows,unique_languages,unique_strategies
+0.9390778414912023,0.19444444443194442,1.0,0.5333333333333333,0.2,6,6,6,6,1,french,6,3,1

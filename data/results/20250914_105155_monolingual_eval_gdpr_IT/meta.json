@@ -1,0 +1,357 @@
+{
+  "test_type": "monolingual_eval",
+  "timestamp": "2025-09-14T10:51:55.460039",
+  "dataset_path": "gdpr_IT.csv",
+  "endpoint": "/evaluate_rag",
+  "http_status": 200,
+  "server_response": {
+    "details": [
+      {
+        "metrics": {
+          "answer_relevancy": 0.9097822751863899,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 1.0,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Nel contesto fornito, **GDPR** è l'acronimo di **\"General Data Protection Regulation\"**, ossia il **Regolamento Generale sulla Protezione dei Dati**.\n\nSi tratta del **Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio**, adottato il **27 aprile 2016**, che disciplina:\n1. **La protezione delle persone fisiche** in relazione al **trattamento dei dati personali**.\n2. **La libera circolazione di tali dati** all’interno dell’Unione Europea (e dello Spazio Economico Europeo, EEA).\n3. **L’abrogazione della precedente Direttiva 95/46/CE**, aggiornando e uniformando le norme in materia di privacy in tutti gli Stati membri dell’UE.\n\nIl GDPR stabilisce **regole vincolanti** per garantire la sicurezza, la trasparenza e i diritti degli individui riguardo ai propri dati personali, prevedendo anche **sanzioni** in caso di violazioni. La base giuridica è l’**Articolo 16(2) del TFUE** (Trattato sul Funzionamento dell’Unione Europea), che assegna al Parlamento e al Consiglio il compito di definire tali norme.",
+        "reference": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "manner , in all issues which relat e to the prot ection of personal data. \n4.5.2016 L 119/55 Official Jour nal of the European Union EN",
+          "personal data and equivalent sanctions f or infr ing ements in the Member Stat es. \n(12)  Ar ticle 16(2) TFEU mandates the European P arliament and the Council to la y do wn the r ules relating to the \nprot ection of natural persons with regard to the processing of personal data and the r ules relating to the free \nmo vement of personal data."
+        ],
+        "user_input": "Che cosa significa GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.9496775512387039,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 0.0,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Il **Regolamento (UE) 2016/679 (GDPR)** è entrato in vigore **il 24 maggio 2016** (20 giorni dopo la sua pubblicazione nella Gazzetta ufficiale dell’UE), ma **ha iniziato ad applicarsi** (diventando obbligatorio per tutti gli Stati membri) **a partire dal 25 maggio 2018**, come stabilito dall’**Articolo 99** del GDPR (non esplicitamente citato nel testo fornito, ma parte integrante del regolamento).\n\n---\n**Nota**: Il testo da te fornito non riporta esplicitamente la data di applicazione, ma si limita a indicare la data di adozione (27 aprile 2016). Tuttavia, la domanda si riferisce a una norma ben nota, la cui **data di applicazione effettiva** è universalmente riconosciuta come **25 maggio 2018**. Se devi basarti **solo sul testo fornito**, non è possibile ricavare la risposta completa, poiché manca l’Articolo 99 che fissa la data di applicazione.",
+        "reference": "25 maggio 2018",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "constitut es a necessar y and propor tionate measure in a democratic society to safeguard, in par ticular , impor tant \nobjectives of general public interest, the controller should be allo wed to fur ther process the personal data \nir respective of the compatibility of the pur poses. In any case, the application of the pr inciples set out in this",
+          "P ar ty on the Prot ection of Individuals with regar d to the Processing of P ersonal Data established by Ar ticle 29 of \nDirective 95/46/EC shall be constr ued as referen ces to the European Data Protection Board established by this \nRegulation. \nAr ticle 95 \nRelationship with Directiv e 2002/58/EC"
+        ],
+        "user_input": "Quando ha iniziato ad applicarsi il GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.9999991041590114,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 0.42857142857142855,
+          "noise_sensitivity(mode=relevant)": 0.14285714285714285
+        },
+        "prediction": "L'**obiettivo principale del GDPR (Regolamento Generale sulla Protezione dei Dati, *Regulation (EU) 2016/679*)**, come emerge dal contesto fornito, è duplice:\n\n1. **Proteggere le persone fisiche** (*\"natural persons\"*) **riguardo al trattamento dei dati personali**, garantendo un elevato livello di tutela dei diritti fondamentali e della privacy in relazione alla raccolta, utilizzo, conservazione e trasferimento dei loro dati.\n\n2. **Assicurare la libera circolazione dei dati personali** all’interno dell’Unione Europea (e dello Spazio Economico Europeo, *EEA*), eliminando ostacoli alla loro movimentazione tra gli Stati membri, pur nel rispetto delle norme di protezione.\n\nIn sintesi, il GDPR mira a **bilanciare la protezione dei dati personali con la facilitazione del loro scambio legittimo**, creando un quadro normativo uniforme in tutta l’UE. Il testo sottolinea anche la sostituzione della precedente *Direttiva 95/46/CE* per modernizzare e armonizzare le regole in linea con l’evoluzione tecnologica.",
+        "reference": "Proteggere le persone fisiche con riguardo al trattamento dei dati personali e garantire la libera circolazione di tali dati",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "manner , in all issues which relat e to the prot ection of personal data. \n4.5.2016 L 119/55 Official Jour nal of the European Union EN",
+          "P ar ty on the Prot ection of Individuals with regar d to the Processing of P ersonal Data established by Ar ticle 29 of \nDirective 95/46/EC shall be constr ued as referen ces to the European Data Protection Board established by this \nRegulation. \nAr ticle 95 \nRelationship with Directiv e 2002/58/EC"
+        ],
+        "user_input": "Qual è l'obiettivo principale del GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.9686094614143351,
+          "context_precision": 0.9999999999,
+          "context_recall": 0.0,
+          "faithfulness": 0.4166666666666667,
+          "noise_sensitivity(mode=relevant)": 0.16666666666666666
+        },
+        "prediction": "Basandosi **unicamente** sul testo fornito (preambolo del **Regolamento (UE) 2016/679 - GDPR**), il GDPR si applica:\n\n1. **Alle persone fisiche (natural persons)**:\n   Il regolamento tutela i **diritti fondamentali e le libertà delle persone fisiche** in relazione al **trattamento dei loro dati personali** (es. nomi, indirizzi, dati online, ecc.).\n\n2. **Ai responsabili del trattamento (controller)**:\n   Il testo menziona che il **\"controller\"** (il soggetto che determina le finalità e i mezzi del trattamento dei dati) deve rispettare i principi del GDPR, anche quando i dati vengono trattati per **obiettivi di interesse pubblico generale** in una società democratica.\n\n3. **Agli Stati membri dell’UE e dello Spazio Economico Europeo (SEE)**:\n   - Il GDPR **armonizza** le norme sulla protezione dei dati tra gli **Stati membri dell’UE** (come indicato dal riferimento alla Direttiva 95/46/CE, che il GDPR abroga).\n   - Il testo specifica che il regolamento ha **\"rilevanza per il SEE\"** (*\"Text with EEA relevance\"*), quindi si applica anche a **Norvegia, Islanda e Liechtenstein**.\n\n---\n**Nota**: Il testo non esplicita altri dettagli (es. applicazione a soggetti extra-UE che trattano dati di cittadini UE, eccezioni, ecc.), ma dal contesto si evince chiaramente che il focus è sulla **tutela delle persone fisiche** all’interno dell’UE/SEE e sui **soggetti (pubblici o privati) che trattano i loro dati**.",
+        "reference": "Ai titolari e ai responsabili del trattamento, all'interno o all'esterno dell'UE, che trattano dati personali di interessati nell'Unione",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "constitut es a necessar y and propor tionate measure in a democratic society to safeguard, in par ticular , impor tant \nobjectives of general public interest, the controller should be allo wed to fur ther process the personal data \nir respective of the compatibility of the pur poses. In any case, the application of the pr inciples set out in this",
+          "persons. \n(3)  Directive 95/46/EC of the European P arliament and of the Council (\n4\n) seeks to har monise the prot ection of \nfundamental r ights and freedoms of natural persons in respect of processing activities and to ensure the free f lo w \nof personal data between Member State s. \n4.5.2016 L 119/1 Official Jour nal of the European Union EN     \n(\n1\n) OJ C 229, 31.7.2012, p. 90. \n(\n2"
+        ],
+        "user_input": "A chi si applica il GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.893692593934584,
+          "context_precision": 0.8333333332916666,
+          "context_recall": 1.0,
+          "faithfulness": 0.8,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Ai sensi del **Regolamento (UE) 2016/679 (GDPR)**, i **dati personali** sono definiti all'**Articolo 4, punto 1** (non esplicitamente riportato nel testo fornito, ma desumibile dal contesto e dalla finalità del regolamento) come:\n\n> **\"Qualsiasi informazione riguardante una persona fisica identificata o identificabile\"**.\n\nUna persona fisica è considerata **identificabile** quando può essere identificata, direttamente o indirettamente, con particolare riferimento a:\n- Un **identificativo** (es. nome, numero di identificazione, dati di localizzazione, identificatore online).\n- Uno o più **elementi caratteristici** della sua identità fisica, fisiologica, genetica, psichica, economica, culturale o sociale.\n\n### Esempi di dati personali (ricavabili dal contesto del GDPR):\n- Nome e cognome.\n- Indirizzo email, numero di telefono.\n- Dati di localizzazione (es. indirizzo IP, coordinate GPS).\n- Dati biometrici o genetici.\n- Informazioni economiche (es. dati bancari).\n- Post sui social media, cookie, identificatori online.\n- Dati sensibili (es. salute, orientamento politico, religione, origine etnica), che godono di **tutele rafforzate** (Art. 9 GDPR).\n\n### Esclusioni:\n- **Dati anonimi**: Se un’informazione non consente di identificare (nemmeno indirettamente) una persona, non è un dato personale.\n- **Dati di persone giuridiche** (es. aziende): Il GDPR protegge solo le **persone fisiche**.\n\n---\n**Base giuridica nel testo fornito**:\nIl GDPR (Art. 16(2) TFUE) mira a regolamentare la **protezione dei dati personali** e la loro **libera circolazione** nell’UE, garantendo diritti uniformi in tutti gli Stati membri. La definizione sopra riportata è coerente con l’**oggetto del regolamento** (protezione delle persone fisiche) e con i principi enunciati nei considerando (es. n. 12).",
+        "reference": "Qualsiasi informazione riguardante una persona fisica identificata o identificabile",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "manner , in all issues which relat e to the prot ection of personal data. \n4.5.2016 L 119/55 Official Jour nal of the European Union EN",
+          "personal data and equivalent sanctions f or infr ing ements in the Member Stat es. \n(12)  Ar ticle 16(2) TFEU mandates the European P arliament and the Council to la y do wn the r ules relating to the \nprot ection of natural persons with regard to the processing of personal data and the r ules relating to the free \nmo vement of personal data."
+        ],
+        "user_input": "Che cosa sono i dati personali ai sensi del GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.9390644144291717,
+          "context_precision": 0.99999999995,
+          "context_recall": 1.0,
+          "faithfulness": 0.6,
+          "noise_sensitivity(mode=relevant)": 0.2
+        },
+        "prediction": "Nel contesto fornito, le **categorie particolari di dati personali** (o \"special categories of personal data\") sono menzionate in relazione al divieto di **decisioni automatizzate e profilazione** basate su di esse, salvo condizioni specifiche.\n\nSebbene il testo non elenchi esplicitamente le categorie, il riferimento normativo (Regolamento UE 2016/679, GDPR) a cui si allude le identifica chiaramente. Sulla base del contesto e della normativa GDPR, le categorie particolari sono:\n\n1. **Dati che rivelano l’origine razziale o etnica**.\n2. **Dati genetici**.\n3. **Dati biografici** (ad es. impronte digitali, dati del DNA).\n4. **Dati relativi alla salute** (ad es. cartelle cliniche, informazioni su disabilità).\n5. **Dati relativi alla vita sessuale o all’orientamento sessuale**.\n6. **Dati relativi alle opinioni politiche, religiose o filosofiche**.\n7. **Dati relativi all’appartenenza sindacale**.\n\n---\n**Nota**: Il testo citato evidenzia che la **profilazione** e le **decisioni automatizzate** basate su queste categorie sono **vietate**, salvo in presenza di:\n- **Consenso esplicito** dell’interessato,\n- **Motivi di interesse pubblico rilevante** (ad es. legge),\n- **Finalità di medicina preventiva** o diagnostica (con garanzie adeguate).\n\nFonte implicita: *Articolo 9 del GDPR* (non citato direttamente nel testo, ma richiamato dal contesto).",
+        "reference": "Dati che rivelano l'origine razziale o etnica, le opinioni politiche, le convinzioni religiose, i dati relativi alla salute, i dati genetici e biometrici, l'orientamento sessuale e l'appartenenza sindacale",
+        "retrieved_contexts": [
+          "membership, ge netic or health status or sexual or ientation, or that result in measures hav ing such an effe ct. \nA utomat ed decision-making and prof iling based on special catego r ies of personal data should be allo wed only \nunder specifi c conditions. \n(72)  Profiling is subject to the r ules of this Regulation go ver ning the processing of personal data, such as the legal",
+          "personal data and equivalent sanctions f or infr ing ements in the Member Stat es. \n(12)  Ar ticle 16(2) TFEU mandates the European P arliament and the Council to la y do wn the r ules relating to the \nprot ection of natural persons with regard to the processing of personal data and the r ules relating to the free \nmo vement of personal data.",
+          "HA VE ADOPTED THIS REGUL A TION: \nCHAPTER I \nGener al provisions \nAr ticle 1 \nSubject-matter and objectiv es \n1. This Regulation la ys do wn r ules relating to the prote ction of natural persons with rega rd to the processing of \npersonal data and r ules relating to the free mo vement of personal data."
+        ],
+        "user_input": "Quali sono le categorie particolari di dati personali?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.7541676078661043,
+          "context_precision": 0.0,
+          "context_recall": 0.0,
+          "faithfulness": 1.0,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Nel contesto fornito, il **titolare del trattamento** (o *controller* in inglese) è la **persona fisica o giuridica, l’autorità pubblica, il servizio o altro organismo che, singolarmente o insieme ad altri, determina le finalità e i mezzi del trattamento dei dati personali**.\n\nDagli estratti del testo (che sembrano riferirsi al **GDPR - Regolamento UE 2016/679**), emergono i seguenti elementi chiave sul titolare:\n1. **Ruolo attivo**: È colui che *offre beni o servizi* ai soggetti interessati (data subjects) nell’UE, indipendentemente dal fatto che ciò sia collegato a un pagamento.\n2. **Responsabilità**:\n   - Deve valutare se i propri interessi legittimi (ad es. per il trattamento) **non prevalgono** sui diritti e le libertà degli interessati.\n   - Deve adottare **misure appropriate** per fornire informazioni trasparenti (ai sensi degli **articoli 13 e 14 GDPR**, relativi all’informativa privacy) e comunicazioni (articoli **15-22 e 34**, che riguardano diritti dell’interessato e notifiche di violazioni).\n   - Deve considerare **natura dei dati, finalità, durata del trattamento** e altri contesti rilevanti (ad es. trasferimenti di dati).\n\n---\n**Esempio pratico**:\nSe un’azienda con sede fuori dall’UE (ad es. negli USA) **mirata a clienti nell’UE** (ad es. con un sito web in italiano, prezzi in euro, o consegne in Italia), quella azienda è **titolare del trattamento** per i dati degli utenti UE, anche se non ha una filiale in Europa. Deve quindi rispettare il GDPR.\n\n---\n**Nota**: Il testo citato non definisce esplicitamente un titolare specifico, ma descrive **obblighi e criteri** per identificarne uno in base alle attività di trattamento. Per una risposta concreta su un caso reale, servirebbero dettagli aggiuntivi (ad es. chi offre il servizio, dove sono i dati, ecc.).",
+        "reference": "Il soggetto che determina le finalità e i mezzi del trattamento dei dati personali",
+        "retrieved_contexts": [
+          "offe r ing goods or ser vices to such data subjects ir respective of whether connect ed to a pa yment. In order to \ndet er mine whether such a controller or processor is offer ing goods or ser vices to data subjects who are in the \nU nion, it should be ascer tained whether it is apparent that the controller or processor en visages offer ing ser vices",
+          "inter ests are not o ver r idden by the inter ests or r ights and freedoms of the data subject and when the controller \nhas assessed all the circumstances sur rounding the data transfer . The controller should give par ticular considera ­\ntion to the nature of the personal data, the pur pose and duration of the proposed processing operation or",
+          "subject \n1. The controller shall tak e appropr iate measures to pro vide any inf or mation refer red to in Ar ticles 13 and 14 and \nan y communication under Ar ticles 15 to 22 and 34 relating to processing to the data subject in a concise, transparent, \nintelli gible and easily accessible f or m, using clear and plain language , in par ticular f or an y inf or mation addressed"
+        ],
+        "user_input": "Chi è il titolare del trattamento?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.7702297945371032,
+          "context_precision": 0.0,
+          "context_recall": 1.0,
+          "faithfulness": 0.2,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Nel contesto fornito (tratto dal **Regolamento Generale sulla Protezione dei Dati - GDPR**), il **responsabile del trattamento** (in inglese *\"controller\"*) è definito come la figura che:\n\n- **Determina le finalità e i mezzi del trattamento dei dati personali** (ovvero decide *perché* e *come* i dati vengono elaborati).\n- **Ha la responsabilità e la responsabilità giuridica** (*responsibility and liability*) per qualsiasi trattamento di dati personali effettuato **direttamente dal controller stesso** o **per suo conto** (ad esempio, tramite un *responsabile del trattamento esterno*, o *\"processor\"* in inglese).\n- **Deve adottare misure appropriate** per garantire il rispetto del GDPR, come specificato nel considerando (74), che sottolinea l’obbligo di implementare misure tecniche e organizzative adeguate.\n\n---\n**In sintesi**:\nIl **responsabile del trattamento** è il soggetto (persona fisica, giuridica, autorità pubblica, ecc.) che **decide** le modalità e gli scopi del trattamento dei dati personali e ne risponde legalmente.\n\n---\n**Esempi pratici** (non esplicitati nel testo, ma coerenti con la definizione):\n- Un’azienda che raccoglie dati dei clienti per finalità commerciali.\n- Un ente pubblico che gestisce un database di cittadini per erogare servizi.\n- Un ospedale che tratta dati sanitari dei pazienti.",
+        "reference": "Il soggetto che tratta dati personali per conto del titolare del trattamento",
+        "retrieved_contexts": [
+          "and in the European Conv ention f or the Prote ction of Human Rights and Fundamental Freedoms. \n(74)  The responsibility and liability of the controller f or any processing of personal data car r ied out by the controller \nor on the controller's behalf should be established. In par ticular , the controller should be obliged to im plement",
+          "(141)  Ever y data subject should hav e the r ight to lodg e a complaint with a sing le super visor y author ity , in par ticular in \nthe Member Stat e of his or her habitual residence, and the r ight to an effe ctive judicial remedy in accordance \n4.5.2016 L 119/25 Official Jour nal of the European Union EN",
+          "Ha ving regar d to the opinion of the European Economic and Social Committ ee (\n1\n), \nHa ving regar d to the opinion of the Committ ee of the Regions (\n2\n), \nA cting in accordance with the ordinar y legislative procedure (\n3\n), \nWhereas: \n(1)  The protection of natural persons in relation to the processing of personal data is a fundamental r ight."
+        ],
+        "user_input": "Chi è il responsabile del trattamento?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.8606676875650757,
+          "context_precision": 0.8333333332916666,
+          "context_recall": 1.0,
+          "faithfulness": 0.6,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Secondo il **Regolamento (UE) 2016/679 (GDPR)**, il **diritto di accesso** (articolo 15) è il diritto dell'**interessato** (la persona fisica cui si riferiscono i dati personali) di:\n\n1. **Ottenere conferma** dal **titolare del trattamento** (chi gestisce i dati) se i propri dati personali siano o meno **oggetto di trattamento** (cioè raccolti, conservati, utilizzati, ecc.).\n2. **Accedere ai propri dati personali** e ricevere le seguenti informazioni:\n   - **Le finalità del trattamento** (a cosa servono i dati, ad esempio marketing, adempimenti legali, ecc.).\n\nIn sintesi, il diritto di accesso consente all’interessato di **sapere se e come** i suoi dati personali vengono trattati e di **ottenere una copia** di tali dati, garantendo trasparenza e controllo sulle proprie informazioni.\n\n*(Nota: Il testo citato menziona solo il punto (a) delle informazioni da fornire, ma l’articolo 15 GDPR completo elenca altri dettagli, come categorie di dati, destinatari, periodo di conservazione, ecc.)*",
+        "reference": "Il diritto di ottenere conferma e l'accesso ai dati personali che riguardano l'interessato",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "take n and av oid superf luous costs and exces sive incon veniences f or the persons concer ned. Investig ator y po wers \nas regar ds access to premises should be exercised in accordance with specif ic requirements in Member Stat e \nprocedural law , such as the requirement to obtain a pr ior judicial author isation. Each leg ally binding measure of",
+          "Ar ticle 15 \nRight of access b y the dat a subject \n1. The data subject shall hav e the r ight to obtain from the controller confir mation as to whether or not personal data \nconcer ning him or her are being processed, and, where that is the case, access to the personal data and the f ollo wing \ninf or mation: \n(a)  the pur poses of the processing;"
+        ],
+        "user_input": "Che cos'è il diritto di accesso?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.8426373146807178,
+          "context_recall": 1.0,
+          "faithfulness": 0.0,
+          "noise_sensitivity(mode=relevant)": 0.2857142857142857
+        },
+        "prediction": "Il testo fornito è un estratto del **Regolamento (UE) 2016/679 (GDPR)**, ma non contiene una definizione esplicita del **diritto di rettifica**.\n\nTuttavia, sulla base del **GDPR** (che è il contesto di riferimento), il **diritto di rettifica** (articolo 16) è il diritto dell’interessato (la persona fisica cui si riferiscono i dati personali) di ottenere, **senza ingiustificato ritardo**, la **correzione dei dati personali inesatti** che lo riguardano. Inoltre, l’interessato ha il diritto di ottenere **l’integrazione dei dati personali incompleti**, anche fornendo una dichiarazione integrativa.\n\nIn sintesi:\n- **Correzione**: se i dati sono errati (es. nome, indirizzo, data di nascita), l’interessato può chiederne la modifica.\n- **Integrazione**: se i dati sono parziali, può richiederne il completamento.\n\nQuesto diritto è uno dei **diritti fondamentali** previsti dal GDPR per garantire che i dati personali siano **accurati e aggiornati**.\n\n*(Nota: il testo estratto non menziona direttamente l’art. 16, ma il GDPR nel suo complesso lo disciplina.)*",
+        "reference": "Il diritto di ottenere la rettifica dei dati personali inesatti",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "relat ed proceedings are pending bef ore a cour t in another Member Stat e, an y cour t other than the cour t fi rst \n4.5.2016 L 119/26 Official Jour nal of the European Union EN",
+          "2. The delegat ion of po wer refer red to in Ar ticle 12(8) and Ar ticle 43(8) shall be conferr ed on the Commission f or \nan indet er minate per iod of time from 24 Ma y 2016. \n3. The delegatio n of po wer refer red to in Ar ticle 12(8) and Ar ticle 43(8) ma y be revok ed at any time by the"
+        ],
+        "user_input": "Che cos'è il diritto di rettifica?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.49999999995,
+          "context_recall": 1.0,
+          "faithfulness": 0.0,
+          "noise_sensitivity(mode=relevant)": 0.14285714285714285
+        },
+        "prediction": "Il testo fornito non contiene una definizione esplicita del **\"diritto alla cancellazione\"** (noto anche come *\"diritto all'oblio\"* o *\"right to erasure\"* in inglese), poiché il brano citato si riferisce principalmente a:\n- **Deroghe per trasferimenti di dati** (Articolo 49 del GDPR).\n- **Procedure di revoca di deleghe legislative** (contesto istituzionale UE).\n\nTuttavia, **nel GDPR (Regolamento UE 2016/679)**, il **diritto alla cancellazione** è disciplinato dall’**Articolo 17** (non riportato nel testo da te fornito). Ecco una sintesi **basata sulla normativa GDPR** (che puoi trovare nel regolamento completo):\n\n---\n### **Diritto alla cancellazione (\"diritto all'oblio\") – Art. 17 GDPR**\nIl diritto alla cancellazione consente all’**interessato** (la persona cui si riferiscono i dati personali) di chiedere al **titolare del trattamento** (es. un’azienda, un ente pubblico) di **cancellare i propri dati personali** senza ingiustificato ritardo, **nei seguenti casi**:\n1. **I dati non sono più necessari** rispetto alle finalità per cui sono stati raccolti o trattati.\n2. **Revoca del consenso**: L’interessato revoca il consenso su cui si basava il trattamento (se non esistono altre basi giuridiche).\n3. **Opposizione al trattamento**: L’interessato si oppone al trattamento (ai sensi dell’**Art. 21 GDPR**) e non sussistono motivi legittimi prevalenti per continuare.\n4. **Trattamento illecito**: I dati sono stati trattati in violazione del GDPR.\n5. **Adempimento di un obbligo legale**: La cancellazione è richiesta da una legge dell’UE o dello Stato membro.\n6. **Dati raccolti per servizi della società dell’informazione** (es. social network) offerti a **minori** (se il consenso è stato dato senza la capacità giuridica).\n\n#### **Eccezioni (quando il diritto non si applica)**:\n- **Libertà di espressione e informazione** (es",
+        "reference": "Il diritto di ottenere la cancellazione dei dati personali in determinate circostanze",
+        "retrieved_contexts": [
+          "European P arliament or by the Council. A decision of revocat ion shall put an end to the deleg ation of po wer specifi ed in \nthat decision. It shall take effect the da y f ollo wing that of its publication in the Off icial Jour nal of the Eur opean Union or at \na late r dat e specifi ed therein. It shall not aff ect the validity of an y delegat ed acts already in f orce.",
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "Derogations f or specif ic situations \n1. In the absence of an adequacy decision pursuant to Ar ticle 45(3), or of appropr iat e safeg uards pursuant to \nAr ticle 46, including binding cor porate r ules, a transfer or a set of transfer s of personal data to a third countr y or an in ­\nternatio nal org anisation shall take place only on one of the f ollo wing conditions:"
+        ],
+        "user_input": "Che cos'è il diritto alla cancellazione?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.0,
+          "context_recall": 1.0,
+          "faithfulness": 0.4,
+          "noise_sensitivity(mode=relevant)": 0.4
+        },
+        "prediction": "Il testo fornito non tratta direttamente il **\"diritto di limitazione del trattamento\"** (o *right to restriction of processing*), che è un diritto specifico previsto dal **Regolamento Generale sulla Protezione dei Dati (GDPR, Articolo 18)**.\n\nTuttavia, dal contesto fornito (che riguarda principalmente i **trasferimenti di dati verso paesi terzi**), non è possibile ricavare una definizione di questo diritto. Il brano citato si concentra su:\n- **Adeguatezza delle decisioni** (Art. 45 GDPR),\n- **Garanzie appropriate** (Art. 46),\n- **Deroghe per situazioni specifiche** (trasferimenti in assenza di adeguatezza o garanzie),\n- **Limiti ai trasferimenti per motivi di interesse pubblico**.\n\n---\n### **Definizione del diritto di limitazione del trattamento (GDPR, Art. 18)**\n*(Basata sul GDPR, non sul testo fornito)*\nIl **diritto di limitazione del trattamento** consente all’interessato di ottenere dal titolare del trattamento la **limitazione** (ovvero una sospensione temporanea) del trattamento dei propri dati personali nei seguenti casi:\n1. **Contestazione dell’accuratezza**: Se l’interessato contesta l’esattezza dei dati, il trattamento viene limitato per il tempo necessario a verificare la correttezza.\n2. **Trattamento illecito**: Se il trattamento è illecito, ma l’interessato si oppone alla cancellazione e chiede invece la limitazione.\n3. **Dati non più necessari al titolare**: Se il titolare non ha più bisogno dei dati, ma l’interessato li richiede per l’accertamento, l’esercizio o la difesa di un diritto in sede giudiziaria.\n4. **Opposizione**: Se l’interessato si è opposto al trattamento (ai sensi dell’Art. 21), in attesa della verifica sull’eventuale prevalenza dei motivi legittimi del titolare.\n\nDurante la limitazione, i dati possono essere trattati **solo con il consenso dell’interessato** o per:\n- Accertamento, esercizio o difesa di un diritto in sede giudiziaria,\n- Tutela dei diritti di un’altra persona fisica/",
+        "reference": "Il diritto di limitare il trattamento dei dati personali in casi specifici",
+        "retrieved_contexts": [
+          "la w or in the la w of the Member Stat e to which the controller is subject. \n5. In the absence of an adequacy decision, U nion or Member State la w ma y , f or im por tant reasons of public interest, \nexpressly set limits to the transfer of specific catego r ies of personal data to a third countr y or an internatio nal",
+          "breac h of internatio nal law and ma y impede the attainment of the protect ion of natural persons ensured in the \nU nion by this Regulation. T ransf ers should only be allo wed where the conditions of this Regulation f or a transfer \nto third countr ies are met. This ma y be the case, inter alia, where disclosure is necessar y f or an impor tant ground",
+          "Derogations f or specif ic situations \n1. In the absence of an adequacy decision pursuant to Ar ticle 45(3), or of appropr iat e safeg uards pursuant to \nAr ticle 46, including binding cor porate r ules, a transfer or a set of transfer s of personal data to a third countr y or an in ­\nternatio nal org anisation shall take place only on one of the f ollo wing conditions:"
+        ],
+        "user_input": "Che cos'è il diritto di limitazione del trattamento?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.49999999995,
+          "context_recall": 1.0,
+          "faithfulness": 0.25,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Il contesto fornito non contiene una definizione esplicita del **diritto alla portabilità dei dati**, in quanto il testo citato riguarda principalmente:\n- Le norme procedurali per le azioni legali contro un **titolare del trattamento** (controller) o un **responsabile del trattamento** (processor) (Articolo 79 del GDPR).\n- Un riferimento alla **Regolamentazione (UE) 2016/679 (GDPR)** e alla sua struttura, senza approfondire i diritti specifici degli interessati.\n\n---\n### **Definizione del diritto alla portabilità (basata sul GDPR, non presente nel testo citato)**\nIl **diritto alla portabilità dei dati** (Articolo 20 del GDPR) è il diritto dell’interessato di:\n1. **Ricevere** i propri dati personali in un formato **strutturato, di uso comune e leggibile da dispositivo automatico** (es. CSV, JSON).\n2. **Trasmettere** tali dati a un altro titolare del trattamento **senza impedimenti** da parte del titolare originale, quando:\n   - Il trattamento si basa sul **consenso** o su un **contratto**.\n   - Il trattamento è effettuato con **mezzi automatizzati** (es. database digitali).\n\n**Esempio pratico**:\nUn utente può scaricare i propri dati da un social network (es. Facebook) e caricarli su un altro servizio (es. LinkedIn), se tecnicamente compatibile.\n\n---\n### **Fonti nel GDPR**\nPer una definizione completa, consultare:\n- **Articolo 20 GDPR** (\"Diritto alla portabilità dei dati\").\n- **Considerando 68** del GDPR, che spiega lo scopo del diritto: favorire la **libera circolazione dei dati personali** e la **concorrenza** tra servizi digitali.\n\n---\n**Nota**: Il testo da te fornito non include l’Articolo 20, pertanto la risposta si basa sulla conoscenza generale del GDPR. Per una citazione testuale, sarebbe necessario consultare il regolamento completo.",
+        "reference": "Il diritto di ricevere i dati personali in un formato strutturato, di uso comune e leggibile da dispositivo automatico e di trasmetterli a un altro titolare",
+        "retrieved_contexts": [
+          "2. Proceedings again st a controller or a processor shall be brought bef ore the cour ts of the Member Stat e where the \ncontroller or processor has an establishment. Alter natively , such proceedings ma y be brought bef ore the cour ts of the \nMember Stat e where the data subject has his or her habitual residence, unless the controller or processor is a public",
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "P ar ty on the Prot ection of Individuals with regar d to the Processing of P ersonal Data established by Ar ticle 29 of \nDirective 95/46/EC shall be constr ued as referen ces to the European Data Protection Board established by this \nRegulation. \nAr ticle 95 \nRelationship with Directiv e 2002/58/EC"
+        ],
+        "user_input": "Che cos'è il diritto alla portabilità dei dati?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.8067924251859893,
+          "context_precision": 0.0,
+          "context_recall": 1.0,
+          "faithfulness": 0.125,
+          "noise_sensitivity(mode=relevant)": 0.125
+        },
+        "prediction": "Nel contesto del **Regolamento Generale sulla Protezione dei Dati (GDPR - Regolamento (UE) 2016/679)**, il **diritto di opposizione** non è esplicitamente definito nel frammento di testo che hai fornito. Tuttavia, basandomi sulla struttura e sui principi del GDPR (che disciplina i diritti degli interessati), posso spiegarti cosa prevede questo diritto in generale, anche se non è direttamente menzionato nel passaggio citato:\n\n---\n\n### **Diritto di opposizione (Articolo 21 del GDPR)**\nIl **diritto di opposizione** è uno dei diritti fondamentali riconosciuti agli **interessati** (persone fisiche i cui dati personali sono trattati). Esso consente all’interessato di **opporre** al trattamento dei propri dati personali in specifiche circostanze, in particolare:\n1. **Opposizione al trattamento per motivi legati alla situazione particolare dell’interessato**:\n   - L’interessato può opporsi al trattamento dei suoi dati se questo è basato su:\n     - **Interesse legittimo** del titolare del trattamento (o di un terzo), compreso il *profiling* (Art. 6(1)(f) GDPR).\n     - **Esecuzione di un compito di interesse pubblico** o esercizio di pubblici poteri (Art. 6(1)(e) GDPR).\n   - Il titolare del trattamento **deve astenersi** dal trattare i dati, a meno che non dimostri:\n     - **Motivi legittimi cogenti** che prevalgono sui diritti dell’interessato.\n     - La necessità del trattamento per **accertare, esercitare o difendere un diritto in sede giudiziaria**.\n\n2. **Opposizione al trattamento per finalità di marketing diretto**:\n   - Se i dati sono trattati per **marketing diretto** (es. pubblicità, promozioni), l’interessato ha il **diritto assoluto** di opporsi **in qualsiasi momento**, senza dover giustificare la propria scelta.\n   - Il titolare **deve cessare** immediatamente il trattamento per tali finalità.\n\n---\n\n### **Come esercitare il diritto**\nL’interessato può presentare l’opposizione:\n- **G",
+        "reference": "Il diritto di opporsi al trattamento dei dati personali, compresa la profilazione, per motivi connessi alla propria situazione",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "6. Cour t proceedings f or exercising the r ight to receive compen sation shall be brought bef ore the cour ts compet ent \nunder the la w of the Member State refer red to in Ar ticle 79(2). \nAr ticle 83 \nGeneral conditions fo r imposing administrativ e f ines \n1. Each super visor y author ity shall ensure that the imposition of administrative fi nes pursuant to this Ar ticle in",
+          "Derogations f or specif ic situations \n1. In the absence of an adequacy decision pursuant to Ar ticle 45(3), or of appropr iat e safeg uards pursuant to \nAr ticle 46, including binding cor porate r ules, a transfer or a set of transfer s of personal data to a third countr y or an in ­\nternatio nal org anisation shall take place only on one of the f ollo wing conditions:"
+        ],
+        "user_input": "Che cos'è il diritto di opposizione?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 0.0,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Nel contesto fornito (Regolamento (UE) 2016/679 - **GDPR**), la **profilazione** è definita all'**Articolo 4, punto 4** (non esplicitamente riportato nel testo da te condiviso, ma desumibile dalla struttura e dalle finalità del GDPR).\n\nTuttavia, sulla base del **Regolamento citato** e dei principi generali in esso contenuti, la profilazione può essere ricondotta alla seguente definizione:\n\n> **\"Profilazione\"** (*profiling* in inglese) è **qualunque forma di trattamento automatizzato di dati personali** consistente nell’utilizzo di tali dati per **valutare determinati aspetti personali di una persona fisica**, in particolare per **analizzare o prevedere**:\n> - aspetti riguardanti il **rendimento professionale**, la **situazione economica**, la **salute**, le **preferenze personali**, gli **interessi**, l’**affidabilità**, il **comportamento**, l’**ubicazione** o gli **spostamenti** della persona.\n>\n> *(Fonte: Art. 4(4) GDPR, non riportato nel testo parziale fornito, ma parte integrante del Regolamento)*.\n\n---\n### **Elementi chiave nel GDPR (dal contesto fornito e principi generali)**:\n1. **Base giuridica**:\n   La profilazione è lecita solo se basata su:\n   - **Consenso esplicito** dell’interessato (Art. 6(1)(a)).\n   - **Norme di legge** (Union o Stato membro) che prevedano **garanzie specifiche** per i diritti dell’interessato (come menzionato nel frammento da te condiviso, ad es. per \"prodotti o dispositivi medici\").\n   - **Interesse pubblico** o **esercizio di pubblici poteri** (Art. 6(1)(e)).\n   - **Legittimo interesse** del titolare del trattamento (Art. 6(1)(f)), **solo se non prevalgono i diritti dell’interessato** (con valutazione caso per caso).\n\n2. **Diritti dell’interessato**:\n   - **Diritto di opposizione** (Art. 21): L’interessato può opp",
+        "reference": "Qualsiasi forma di trattamento automatizzato di dati personali utilizzata per valutare aspetti personali di una persona fisica",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "products or medical devices, on the basis of Union or Member State la w which pro vides f or suitable and specif ic \nmeasures to safegua rd the r ights and freedoms of the data subject, in par ticular professional secrecy ; \n4.5.2016 L 119/38 Official Jour nal of the European Union EN",
+          "manner , in all issues which relat e to the prot ection of personal data. \n4.5.2016 L 119/55 Official Jour nal of the European Union EN"
+        ],
+        "user_input": "Che cos'è la profilazione ai sensi del GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.8449308511088872,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 0.1111111111111111,
+          "noise_sensitivity(mode=relevant)": 0.2222222222222222
+        },
+        "prediction": "Nel contesto fornito (basato sul **Regolamento Generale sulla Protezione dei Dati - GDPR**), **una violazione dei dati personali** non è esplicitamente definita nei passaggi citati. Tuttavia, sulla base dell’articolo e del contesto normativo europeo (in particolare il **GDPR, Articolo 4(12)** e **Articolo 33**), si può ricavare la seguente definizione standard:\n\n---\n**Violazione dei dati personali (data breach)**:\nUn incidente di sicurezza che comporta — **accidentalmente o in modo illecito** — la **distruzione, la perdita, la modifica, la divulgazione non autorizzata o l’accesso** a dati personali trasmessi, conservati o altrimenti trattati.\n\n**Esempi**:\n- Accesso non autorizzato a un database contenente dati sensibili (es. dati sanitari o finanziari).\n- Furto o smarrimento di dispositivi (es. laptop, USB) con dati personali non crittografati.\n- Attacco informatico (es. ransomware) che rende inaccessibili i dati.\n- Invio accidentale di dati personali a destinatari sbagliati.\n\n---\n**Note dal contesto fornito**:\n1. Il GDPR (richiamato nel testo) impone agli **Stati membri** di definire sanzioni per le violazioni e di regolamentare il trattamento dei dati, **inclusi quelli sensibili** (es. origine etnica, salute, orientamento politico).\n2. L’**Articolo 16(2) TFUE** (Trattato sul Funzionamento dell’UE) obbliga le istituzioni europee a stabilire norme per proteggere i dati personali e garantire la loro libera circolazione, **penalizzando le violazioni**.\n3. Il diritto alla **rettifica** (Articolo 16 GDPR) è uno dei diritti del soggetto interessato in caso di dati inaccurati, ma non definisce la violazione in sé.\n\n---\n**Fonti implicite nel GDPR (non citate nel testo, ma rilevanti)**:\n- **Articolo 33**: Obbligo di notificare la violazione all’autorità di controllo entro **72 ore**.\n- **Articolo 34**: Obbligo di comunicare",
+        "reference": "Una violazione della sicurezza che comporta la distruzione, la perdita, l'alterazione o la divulgazione non autorizzata di dati personali, oppure l'accesso agli stessi, accidentale o illecito",
+        "retrieved_contexts": [
+          "personal data and equivalent sanctions f or infr ing ements in the Member Stat es. \n(12)  Ar ticle 16(2) TFEU mandates the European P arliament and the Council to la y do wn the r ules relating to the \nprot ection of natural persons with regard to the processing of personal data and the r ules relating to the free \nmo vement of personal data.",
+          "processing of special categor ies of personal data (‘sensitive data’). T o that exte nt, this Regulation does not excl ude \nMember Stat e law that sets out the circumstances f or specifi c processing situations, including det er mining more \nprecisely the conditions under which the processing of personal data is la wful. \n4.5.2016 L 119/2 Official Jour nal of the European Union EN",
+          "Ar ticle 16 \nRight to rectif ication \nThe data subject shall ha ve the r ight to obtain from the controller without undue dela y the rectificati on of inaccurate \npersonal data concer ning him or her . T aking into account the pur poses of the processing, the data subject shall hav e the"
+        ],
+        "user_input": "Che cos'è una violazione dei dati personali?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.0,
+          "context_recall": 1.0,
+          "faithfulness": 0.5,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Il contesto fornito **non contiene informazioni specifiche** sul termine entro cui i titolari del trattamento devono notificare le violazioni all'autorità di vigilanza (ad esempio, secondo il **GDPR**).\n\nTuttavia, per completezza e basandomi sulla normativa GDPR (Regolamento UE 2016/679), che non è esplicitamente citata nel testo ma è rilevante per la domanda:\n- **Articolo 33 GDPR** stabilisce che il titolare del trattamento deve notificare una violazione dei dati personali all'autorità di controllo **entro 72 ore** dal momento in cui ne viene a conoscenza, **a meno che** la violazione non presenti un rischio per i diritti e le libertà delle persone fisiche. In tal caso, la notifica può essere ritardata o omessa, ma deve essere giustificata.\n\nPoiché il testo fornito non menziona questo dettaglio, **non è possibile rispondere in modo definitivo sulla base del solo contesto condiviso**.",
+        "reference": "Entro 72 ore da quando ne vengono a conoscenza",
+        "retrieved_contexts": [
+          "tonomous systems: A systematic review,” in Proceedings of the Ex-\ntended Abstracts of the CHI Conference on Human Factors in Com-\nputing Systems, pp. 1–8, 2025.\n[63] K. Greshake, S. Abdelnabi, S. Mishra, C. Endres, T. Holz, and M. Fritz,\n“Not what you’ve signed up for: Compromising real-world llm-\nintegrated applications with indirect prompt injection,” in Proceedings",
+          "par ticular f or infr ingements whic h are not subject to administrative fi nes pursuant to Ar ticle 83, and shall take all \nmeasures necessar y to ensure that they are im plemented. Such penalties shall be eff ective, propor tionate and dissuasive. \n2. Each Member State shall notify to the Commission the pro visions of its la w whic h it adopts pursuant to",
+          "of the super visor y author ities or of other penalties under this Regulation. \n(151)  The lega l systems of Denmark and Eston ia do not allo w f or administrative fi nes as set out in this Regulation. The \nr ules on administrative fine s ma y be applied in such a manner that in Denmark the fi ne is im posed by compet ent"
+        ],
+        "user_input": "Entro quanto tempo i titolari devono notificare le violazioni all'autorità?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.9999999999,
+          "context_recall": 1.0,
+          "faithfulness": 0.5,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Il contesto fornito non contiene informazioni specifiche sulle **sanzioni amministrative massime** previste dal **GDPR (Regolamento (UE) 2016/679)**.\n\nTuttavia, sulla base del **Regolamento GDPR completo** (non visibile nel testo parziale fornito), la sanzione amministrativa massima è:\n- **Fino a 20.000.000 EUR** **oppure**, per le imprese, **fino al 4% del fatturato globale totale annuo** dell’esercizio precedente (a seconda di quale importo sia più elevato), per violazioni gravi (ad es. mancato rispetto dei principi di base del trattamento, diritti degli interessati, trasferimenti internazionali di dati, ecc.).\n\nPer altre violazioni meno gravi, la sanzione può arrivare fino a **10.000.000 EUR** o al **2% del fatturato globale annuo**.\n\n*(Nota: Il testo parziale fornito non menziona esplicitamente queste cifre, che sono invece contenute nell’**Articolo 83** del GDPR.)*",
+        "reference": "Fino a 20 milioni di euro o il 4% del fatturato annuo mondiale totale, se superiore",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "constitut es a necessar y and propor tionate measure in a democratic society to safeguard, in par ticular , impor tant \nobjectives of general public interest, the controller should be allo wed to fur ther process the personal data \nir respective of the compatibility of the pur poses. In any case, the application of the pr inciples set out in this",
+          "(166)  In order to fulf il the objectives of this Regulation, namely to protect the fundamental r ights and freedoms of \nnatural persons and in par ticular their r ight to the protection of personal data and to ensure the free mo vement \n4.5.2016 L 119/30 Official Jour nal of the European Union EN     \n(\n1"
+        ],
+        "user_input": "Qual è la sanzione amministrativa massima ai sensi del GDPR?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.0,
+          "context_precision": 0.0,
+          "context_recall": 1.0,
+          "faithfulness": 0.3,
+          "noise_sensitivity(mode=relevant)": 0.0
+        },
+        "prediction": "Il testo fornito non contiene una definizione esplicita di **\"protezione dei dati fin dalla progettazione\" (data protection by design)** e **\"per impostazione predefinita\" (data protection by default)**, in quanto si riferisce ad altri articoli del **Regolamento Generale sulla Protezione dei Dati (GDPR, Regolamento UE 2016/679)** senza approfondire questi concetti specifici.\n\nTuttavia, sulla base del **contesto normativo del GDPR** (a cui il brano fa riferimento), questi principi sono disciplinati dall’**Articolo 25** del GDPR, che *non è citato nel testo fornito*, ma che può essere sintetizzato come segue per completezza:\n\n1. **Protezione dei dati fin dalla progettazione (*by design*)**:\n   Il titolare del trattamento deve adottare, già in fase di **progettazione** di un prodotto, servizio o sistema (ad es. software, app, processi aziendali), misure tecniche e organizzative appropriate per garantire il rispetto dei principi del GDPR (es. minimizzazione dei dati, pseudonimizzazione, sicurezza). Questo significa che la privacy deve essere integrata sin dall’inizio, non aggiunta successivamente.\n\n2. **Protezione dei dati per impostazione predefinita (*by default*)**:\n   Le impostazioni predefinite di un sistema devono essere **automaticamente conformi al GDPR**, senza richiedere all’utente (data subject) di modificare attivamente le configurazioni. Ad esempio:\n   - Solo i dati **strettamente necessari** per la finalità specifica devono essere trattati per default.\n   - Le opzioni più privacy-friendly (es. condividi solo con \"amici\" invece che \"pubblico\") devono essere pre-selezionate.\n\n---\n**Nota**: Il testo che hai fornito menziona solo indirettamente questi principi (ad es. nell’**Articolo 88** sulla protezione dei dati nei contesti lavorativi), ma non li definisce. Per una risposta basata *unicamente* sul brano citato, non è possibile fornire una spiegazione completa, in quanto i concetti sono regolati altrove nel GDPR. La mia risposta si basa sulla conoscenza generale del regolamento per colmare la lacuna.",
+        "reference": "L'obbligo di attuare misure tecniche e organizzative che garantiscano i principi di protezione dei dati fin dall'inizio",
+        "retrieved_contexts": [
+          "ge neral application shall be used only under appropr iate safegua rds f or the r ights and freedoms of the data subject \npursuant to this Regulation. \nAr ticle 88 \nProcessing in the context of emplo yment \n1. Member Stat es ma y , by law or by collective agreements, pro vide f or more specific r ules to ensure the prot ection of",
+          "established in this Regulation and applied in the light of this Regulation. In order to pro vide a strong and \ncoherent data prote ction framework in the Union, the necessar y adapta tions of Regulation (EC) No 45/2001 \nshould f ollo w af ter the adoptio n of this Regulation, in order to allo w application at the same time as this \nRegulation.",
+          "P ar ty on the Prot ection of Individuals with regar d to the Processing of P ersonal Data established by Ar ticle 29 of \nDirective 95/46/EC shall be constr ued as referen ces to the European Data Protection Board established by this \nRegulation. \nAr ticle 95 \nRelationship with Directiv e 2002/58/EC"
+        ],
+        "user_input": "Che cosa si intende per protezione dei dati fin dalla progettazione e per impostazione predefinita?"
+      },
+      {
+        "metrics": {
+          "answer_relevancy": 0.9279717939623485,
+          "context_precision": 0.0,
+          "context_recall": 0.0,
+          "faithfulness": 0.1,
+          "noise_sensitivity(mode=relevant)": 0.4
+        },
+        "prediction": "Nel contesto fornito (tratto dal **Regolamento (UE) 2016/679**, noto come **GDPR**), **un'autorità di controllo** non è esplicitamente definita nel brano citato. Tuttavia, sulla base del riferimento normativo (Regolamento UE) e del contesto generale del GDPR, si può dedurre quanto segue:\n\nUn'**autorità di controllo** è un'**autorità pubblica indipendente** istituita da uno **Stato membro dell’UE** con il compito di:\n1. **Vigilare** sull’applicazione del GDPR e delle normative nazionali in materia di protezione dei dati personali.\n2. **Garantire** che i **titolari del trattamento** (controller) e i **responsabili del trattamento** (processor) rispettino le regole sulla privacy.\n3. **Intervenire** in caso di violazioni, ad esempio imponendo sanzioni o misure correttive.\n4. **Ricevere reclami** da parte degli interessati (persone fisiche) che ritengono di aver subito un **danno economico o sociale** a causa del trattamento illecito dei propri dati personali.\n\n---\n**Nota**: Il brano citato menziona solo indirettamente il ruolo delle autorità di controllo (ad es. nel riferimento al **Regolamento (UE) n. 182/2011**, che disciplina i meccanismi di controllo degli Stati membri sull’esercizio dei poteri della Commissione UE). Per una definizione completa, bisognerebbe consultare l’**Articolo 51 del GDPR**, che ne delinea esplicitamente funzioni e indipendenza.\n\n---\n**Esempi di autorità di controllo in UE**:\n- In Italia: **Garante per la protezione dei dati personali**.\n- In Germania: **Bundesbeauftragter für den Datenschutz und die Informationsfreiheit (BfDI)**.\n- In Francia: **Commission nationale de l'informatique et des libertés (CNIL)**.",
+        "reference": "Un'autorità pubblica indipendente istituita da uno Stato membro per vigilare sull'applicazione del GDPR",
+        "retrieved_contexts": [
+          "economic or social disadvantag e to the natural person concer ned. Theref ore, as soon as the controller becomes \n4.5.2016 L 119/16 Official Jour nal of the European Union EN",
+          "(\n1\n) Regulation (EU) No 182/2011 of the European Parliament and of the Council of 16 Febr uar y 2011 la ying do wn the r ules and general \npr inciples concer ning mec hanisms f or control by Member States of the Commission's exercise of implem enting po wers (OJ L 55, \n28.2.2011, p. 13).",
+          "household activities could include cor respondence and the holding of addresses, or social netw orking and online \nactivity under taken within the cont ext of such activities. Ho wever , this Regulation applies to controllers or \nprocessors which pro vide the means f or processing personal data f or such personal or household activities."
+        ],
+        "user_input": "Che cos'è un'autorità di controllo?"
+      }
+    ],
+    "summary": {
+      "answer_relevancy": 0.5734111437634211,
+      "context_precision": 0.561403508722807,
+      "context_recall": 0.85,
+      "faithfulness": 0.36656746031746035,
+      "noise_sensitivity(mode=relevant)": 0.10426587301587302
+    }
+  }
+}

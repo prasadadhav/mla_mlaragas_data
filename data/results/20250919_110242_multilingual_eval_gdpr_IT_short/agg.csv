@@ -1,0 +1,2 @@
+avg_answer_relevancy,avg_context_precision,avg_context_recall,avg_faithfulness,avg_noise_sensitivity,count_answer_relevancy,count_context_precision,count_context_recall,count_faithfulness,count_noise_sensitivity,most_common_language,total_rows,unique_languages,unique_strategies
+0.8678341294313721,0.49999999995,1.0,0.7,0.5,4,4,4,4,1,english,4,2,1

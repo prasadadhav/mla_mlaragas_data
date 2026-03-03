@@ -1,0 +1,2 @@
+avg_answer_relevancy,avg_context_precision,avg_context_recall,avg_faithfulness,count_answer_relevancy,count_context_precision,count_context_recall,count_faithfulness,most_common_language,total_rows,unique_languages,unique_strategies
+0.9285091956091592,0.4027777777451389,1.0,0.3125,12,12,12,12,italian,12,3,1

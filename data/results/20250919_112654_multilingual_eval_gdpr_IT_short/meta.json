@@ -1,0 +1,206 @@
+{
+  "test_type": "multilingual_eval",
+  "timestamp": "2025-09-19T11:26:54.731537",
+  "dataset_path": "gdpr_IT_short.csv",
+  "endpoint": "/evaluate_rag_multilingual",
+  "http_status": 200,
+  "source_lang": "italian",
+  "target_languages": "english,french",
+  "num_paraphrases": 1,
+  "strategy": "crosslingual_answer",
+  "translate_context": false,
+  "server_response": {
+    "message": "Evaluation completed successfully",
+    "output_file": "eval_multilingual_italian-english-french_2025-09-19_11-26-54_6variants.csv",
+    "results": [
+      {
+        "answer_relevancy": 0.9369147678952868,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0,
+        "faithfulness": 0.5,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "italian",
+        "noise_sensitivity(mode=relevant)": 0.0,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 0,
+        "question_index": 0,
+        "question_variant": "Che cosa significa GDPR?",
+        "reference": "Regolamento generale sulla protezione dei dati (GDPR).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Official title: Regulation (EU) 2016/679 of the European Parliament and of the Council."
+        ],
+        "response": "GDPR significa \"General Data Protection Regulation\", ovvero \"Regolamento Generale sulla Protezione dei Dati\" in italiano.",
+        "retrieved_contexts": [
+          "I \n(Legislativ e acts) \nREGUL A TIONS \nREGUL A TION (EU) 2016/679 OF THE EUR OPEAN P ARLIAMENT AND OF THE COUNCIL \nof 27 Apr il 2016 \non the protection of natural persons with regard to the processing of personal data and on the free \nmo v ement of such dat a, and repealing Directiv e 95/46/EC (General Data Protection Regulation) \n(T ext with EEA relevance)",
+          "manner , in all issues which relat e to the prot ection of personal data. \n4.5.2016 L 119/55 Official Jour nal of the European Union EN",
+          "personal data and equivalent sanctions f or infr ing ements in the Member Stat es. \n(12)  Ar ticle 16(2) TFEU mandates the European P arliament and the Council to la y do wn the r ules relating to the \nprot ection of natural persons with regard to the processing of personal data and the r ules relating to the free \nmo vement of personal data."
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "italian",
+        "translate_context": false,
+        "user_input": "Cosa significa GDPR?",
+        "variant": "original_q0_p0"
+      },
+      {
+        "answer_relevancy": 0.9742208307168698,
+        "context_precision": 0.0,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "italian",
+        "noise_sensitivity(mode=relevant)": 0.0,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 1,
+        "question_index": 0,
+        "question_variant": "Qual è il significato di GDPR?",
+        "reference": "Regolamento generale sulla protezione dei dati (GDPR).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Official title: Regulation (EU) 2016/679 of the European Parliament and of the Council."
+        ],
+        "response": "GDPR stands for the General Data Protection Regulation, a legal framework adopted by the European Union to protect the personal data and privacy of individuals within the EU and the European Economic Area. It outlines the principles, rights, and obligations related to data protection and privacy, ensuring that the personal data of individuals is processed lawfully, transparently, and securely.",
+        "retrieved_contexts": [
+          "personal data concer ning him or her . \n(2)  The pr inciples of, and r ules on the protection of natural persons with regard to the processing of their personal \ndata should, whate ver their nationality or residence, respect their fundamental r ights and freedoms, in par ticular",
+          "For the pur poses of this Regulation:  \n(1) ‘personal data’ means any inf or mation relating to an identified or identif iable natural person (‘data subject ’); an \nidentifiable natural person is one who can be identif ied, directly or indirectly , in par ticular by reference to an",
+          "(b)  the contact details of the data protection officer , where applicable; \n(c)  the pur poses of the processing f or which the personal data are intende d as well as the leg al basis f or the processing; \n4.5.2016 L 119/40 Official Jour nal of the European Union EN"
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "italian",
+        "translate_context": false,
+        "user_input": "What does GDPR mean?",
+        "variant": "original_q0_p1"
+      },
+      {
+        "answer_relevancy": 0.9742208307168698,
+        "context_precision": 0.0,
+        "context_recall": 1.0,
+        "faithfulness": 1.0,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "english",
+        "noise_sensitivity(mode=relevant)": 0.0,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 0,
+        "question_index": 0,
+        "question_variant": "Che cosa significa GDPR?",
+        "reference": "General Data Protection Regulation (GDPR).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Official title: Regulation (EU) 2016/679 of the European Parliament and of the Council."
+        ],
+        "response": "GDPR stands for the General Data Protection Regulation, a legal framework established by the European Union to protect the personal data and privacy of individuals within the EU. It governs how organizations collect, process, and store personal data, ensuring the protection of fundamental rights and freedoms regardless of nationality or residence.",
+        "retrieved_contexts": [
+          "personal data concer ning him or her . \n(2)  The pr inciples of, and r ules on the protection of natural persons with regard to the processing of their personal \ndata should, whate ver their nationality or residence, respect their fundamental r ights and freedoms, in par ticular",
+          "For the pur poses of this Regulation:  \n(1) ‘personal data’ means any inf or mation relating to an identified or identif iable natural person (‘data subject ’); an \nidentifiable natural person is one who can be identif ied, directly or indirectly , in par ticular by reference to an",
+          "(b)  the contact details of the data protection officer , where applicable; \n(c)  the pur poses of the processing f or which the personal data are intende d as well as the leg al basis f or the processing; \n4.5.2016 L 119/40 Official Jour nal of the European Union EN"
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "english",
+        "translate_context": false,
+        "user_input": "What does GDPR mean?",
+        "variant": "xl_english_q0_p0"
+      },
+      {
+        "answer_relevancy": 0.9557727879674774,
+        "context_precision": 0.0,
+        "context_recall": 1.0,
+        "faithfulness": 0.5,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "english",
+        "noise_sensitivity(mode=relevant)": 0.0,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 1,
+        "question_index": 0,
+        "question_variant": "Qual è il significato di GDPR?",
+        "reference": "General Data Protection Regulation (GDPR).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Official Title: Regulation (EU) 2016/679 of the European Parliament and of the Council."
+        ],
+        "response": "GDPR stands for General Data Protection Regulation. It is a legal framework that sets guidelines for the collection and processing of personal data of individuals within the European Union (EU), ensuring their privacy and protection of their data rights.",
+        "retrieved_contexts": [
+          "personal data concer ning him or her . \n(2)  The pr inciples of, and r ules on the protection of natural persons with regard to the processing of their personal \ndata should, whate ver their nationality or residence, respect their fundamental r ights and freedoms, in par ticular",
+          "For the pur poses of this Regulation:  \n(1) ‘personal data’ means any inf or mation relating to an identified or identif iable natural person (‘data subject ’); an \nidentifiable natural person is one who can be identif ied, directly or indirectly , in par ticular by reference to an",
+          "mo vement of personal data. \n(13)  In order to ensure a consistent level of protection f or natural persons throughout the Union and to prevent \ndiverg ences hamp er ing the free mo vement of personal data within the inte r nal mark et, a Regulation is necessar y \nto pro vide leg al cer tainty and transparency f or economic operat ors, including micro, small and medium-sized"
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "english",
+        "translate_context": false,
+        "user_input": "What is the meaning of GDPR?",
+        "variant": "xl_english_q0_p1"
+      },
+      {
+        "answer_relevancy": 0.9219575506676986,
+        "context_precision": 0.0,
+        "context_recall": 1.0,
+        "faithfulness": 0.0,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "french",
+        "noise_sensitivity(mode=relevant)": 0.0,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 0,
+        "question_index": 0,
+        "question_variant": "Che cosa significa GDPR?",
+        "reference": "Règlement général sur la protection des données (RGPD).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Titre officiel : Règlement (UE) 2016/679 du Parlement européen et du Conseil."
+        ],
+        "response": "RGPD signifie \"Règlement Général sur la Protection des Données\".",
+        "retrieved_contexts": [
+          "constitut es a necessar y and propor tionate measure in a democratic society to safeguard, in par ticular , impor tant \nobjectives of general public interest, the controller should be allo wed to fur ther process the personal data \nir respective of the compatibility of the pur poses. In any case, the application of the pr inciples set out in this",
+          "results since TAPT Benchmark [Isozaki et al., 2024] tested\nPentestGPT [Deng et al., 2024] on the same target VMs.\nRedTeamLLM proves to be competitive for the target use\ncases, and surpasses PentestGPT on almost all the VM’s\nwhen using GPT4-o. The decisive factors for these perfor-\nmance are the following ones. First is reasoning, the differ-",
+          "pro vide f or derogations from the r ights refer red to in Ar ticles 15, 16, 18, 19, 20 and 21 subject to the conditions and \nsafeg uards ref er red to in paragraph 1 of this Ar ticle in so f ar as such r ights are likely to render impossible or ser iously \nim pair the achi evement of the specific pur poses, and such derogat ions are necessar y f or the fulfilment of those \npur poses."
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "french",
+        "translate_context": false,
+        "user_input": "Que signifie RGPD ?",
+        "variant": "xl_french_q0_p0"
+      },
+      {
+        "answer_relevancy": 0.8713802809830117,
+        "context_precision": 0.3333333333,
+        "context_recall": 1.0,
+        "faithfulness": 0.2,
+        "ground_truth": "Regolamento generale sulla protezione dei dati (GDPR)",
+        "language": "french",
+        "noise_sensitivity(mode=relevant)": 0.2,
+        "original_question": "Che cosa significa GDPR?",
+        "paraphrase_number": 1,
+        "question_index": 0,
+        "question_variant": "Qual è il significato di GDPR?",
+        "reference": "Règlement général sur la protection des données (RGPD).",
+        "reference_context": "['Titolo ufficiale: Regolamento (UE) 2016/679 del Parlamento europeo e del Consiglio.']",
+        "reference_contexts": [
+          "Titre officiel: Règlement (UE) 2016/679 du Parlement européen et du Conseil."
+        ],
+        "response": "GDPR signifie \"General Data Protection Regulation\", ou en français, \"Règlement Général sur la Protection des Données\". Il s'agit d'un règlement de l'Union européenne qui vise à harmoniser la protection des données personnelles et à renforcer les droits des citoyens en matière de vie privée.",
+        "retrieved_contexts": [
+          "there are signif icant r isks to the protection of natural persons, in par ticular with regar d to online activity . \nDiff erences in the level of prote ction of the r ights and freedoms of natural persons, in par ticular the r ight to the \nprot ection of personal data, with regard to the processing of personal data in the Member Stat es ma y prevent the",
+          "(89)  Directive 95/46/EC pro vided f or a g eneral oblig ation to notify the processing of personal data to the super visor y \nauthor ities. While that oblig ation produces administrative and fi nancial burdens, it did not in all cases contr ibut e \nto im pro ving the prot ection of personal data. Such indiscr iminate general notificati on oblig ations should",
+          "persons. \n(3)  Directive 95/46/EC of the European P arliament and of the Council (\n4\n) seeks to har monise the prot ection of \nfundamental r ights and freedoms of natural persons in respect of processing activities and to ensure the free f lo w \nof personal data between Member State s. \n4.5.2016 L 119/1 Official Jour nal of the European Union EN     \n(\n1\n) OJ C 229, 31.7.2012, p. 90. \n(\n2"
+        ],
+        "source_language": "italian",
+        "strategy": "crosslingual_answer",
+        "target_language": "french",
+        "translate_context": false,
+        "user_input": "Quelle est la signification de GDPR?.",
+        "variant": "xl_french_q0_p1"
+      }
+    ],
+    "strategy": "crosslingual_answer",
+    "total_variants": 6,
+    "translate_context": false
+  },
+  "processing_stats": {
+    "total_results_found": 6,
+    "rows_processed": 6,
+    "aggregation_fields": 14
+  }
+}

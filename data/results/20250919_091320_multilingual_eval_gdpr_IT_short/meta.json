@@ -1,0 +1,24 @@
+{
+  "test_type": "multilingual_eval",
+  "timestamp": "2025-09-19T09:13:20.469069",
+  "dataset_path": "gdpr_IT_short.csv",
+  "endpoint": "/evaluate_rag_multilingual",
+  "http_status": 200,
+  "source_lang": "italian",
+  "target_languages": "",
+  "num_paraphrases": 1,
+  "strategy": "crosslingual_answer",
+  "translate_context": false,
+  "server_response": {
+    "message": "Evaluation completed successfully",
+    "output_file": "eval_multilingual_italian_2025-09-19_09-13-20_2variants.csv",
+    "strategy": "crosslingual_answer",
+    "total_variants": 2,
+    "translate_context": false
+  },
+  "processing_stats": {
+    "total_results_found": 0,
+    "rows_processed": 0,
+    "aggregation_fields": 0
+  }
+}
